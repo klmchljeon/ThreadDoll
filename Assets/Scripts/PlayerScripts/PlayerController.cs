@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public PlayerModel model;
+    public Rigidbody2D rigidbody2D;
     // Start is called before the first frame update
     void Start()
     {
